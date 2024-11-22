@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  body {
+      font-family: "Plus Jakarta Sans", sans-serif;
+  }
+
+
+  button {
+    background-color: #0C513F;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+
+header{
+  padding: 20px 50px;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  background-color: #0C513F;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.logo a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo a h1{
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul li a{
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 20px;
+  color: black;
+}
+
+.cart {
+  display: flex;
+  font-size: 16px;
+  color: black;
+  gap: 5px;
+}
+
+.cart img {
+  padding-left: 15px;
+}
+
+/* *************nav end *************** */
+
+.heroSec{
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heroText{
+  height: 60vh;
+}
+
+.heroText h1{
+  font-size: 114px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.heroBTN{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.heroBTN button{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+Button a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+btnImg{
+  width: 24px;
+  height: 24px;
+}
+
+.herobutom img{
+  display: flex;
+  padding-left: 60px;
+}
+
+/* *****************hero page end ********** */
+
+.secPg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.secNav{
+  background-color: #FFF3CC;
+  padding: 10px 0px;
+  border-radius: 20px;
+  /* margin-bottom: 50px; */
+}
+
+.secNav a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+.secNav a:hover{
+  background-color:#FFC501 ;
+  border-radius: 20px;
+  transition-duration: 1s;
+  transition-delay: 50ms;
+
+.secPg h2{
+  font-size: 60px;
+  line-height: 60px;
+  /* margin-bottom: 30px; */
+}
+
+.secPg p{
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+
+.secBTN button img{
+  height: 15px;
+  width: 16px;
+  /* margin-bottom: 30px; */
+}
+
+.secPg img {
+  width: 400px;
+  height: 800px;
+  margin-bottom: 50px;
+}
+
+/* sec page end******************** */
+
+
