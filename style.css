@@ -5,12 +5,12 @@
   box-sizing: border-box;
   }
 
-  body {
-      font-family: "Plus Jakarta Sans", sans-serif;
-  }
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
 
 
-  button {
+button {
     background-color: #0C513F;
     padding: 10px 20px;
     border-radius: 20px;
@@ -142,6 +142,7 @@ btnImg{
   border-radius: 20px;
   transition-duration: 1s;
   transition-delay: 50ms;
+}
 
 .secPg h2{
   font-size: 60px;
@@ -172,3 +173,95 @@ btnImg{
 /* sec page end******************** */
 
 
+.thrPg {
+  margin: 50px 0px;
+}
+
+.thrPgText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.thrH2{
+  font-size: 64px;
+  line-height: 80px;
+  color: #D1D5DB;
+}
+
+.thrPgText i {
+  font-size: 64px;
+  color: #D1D5DB;
+}
+
+.thrCards{
+  display: flex;
+  margin: 15px 40px 30px;
+}
+
+.cardItmes{
+  width: 480px;
+  height: 400px;
+  background-color: #FFC501;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px auto 40px auto;
+}
+
+.cardtextAre{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  min-width: 60vh;
+
+}
+
+.cardlogo {
+  width: 24px;
+  padding-bottom: 15px;
+}
+
+.cardItmes h3 {
+  font-size: 27px;
+  font-weight: bold;
+  color: #000000;
+  padding-bottom: 15px;
+}
+
+.cardItmes p{
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.cardItmes a{
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  padding-bottom: 15px;
+}
+.cardItmes a i {
+  padding-left: 5px;
+  padding-bottom: 0px;
+}
+
+.cardBimg{
+  background-image: url(./img/div\ 1.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.cardBimg2{
+  background-image: url(./img/div\ 2.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.cardBimg3{
+  background-image: url(./img/div\ 3.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
